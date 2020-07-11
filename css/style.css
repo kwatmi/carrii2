@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Open+Sans&display=swap');
+
 html {
 	scroll-behavior: smooth;
   }
 
 body {
-	font-family: 'Raleway', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+
 color: #253B52;
  height: 100%;
  width: 100%;
@@ -495,7 +498,7 @@ color: #fff;
     margin-top: 2px;
     width: 100%;
     box-sizing: border-box;
-    font-family: montserrat;
+    font-family: 'Darker Grotesque', sans-serif;
     color: #2C3E50;
     font-size: 16px;
     letter-spacing: 1px
@@ -578,14 +581,14 @@ select.list-dt:focus {
     margin-bottom: 30px;
     overflow: hidden;
     color: #151522;
-    font-family: SF UI Display;
+    font-family: 'Darker Grotesque', sans-serif;
 	font-style: normal;
 	font-weight: 300;
 }
 
 #progressbar .active {
     color: #151522;
-    font-family: SF UI Display;
+    font-family: 'Darker Grotesque', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 }
@@ -600,22 +603,26 @@ select.list-dt:focus {
 
 #progressbar #services:before {
     /*font-family: FontAwesome;*/
-    font-family: SF UI Display;
+    font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Open Sans', sans-serif;
     content: "1"
 }
 
 #progressbar #prefrence:before {
-    font-family: FontAwesome;
+    font-family: 'Darker Grotesque', sans-serif;
+    
     content: "2"
 }
 
 #progressbar #selecttime:before {
-    font-family: FontAwesome;
+    font-family: 'Darker Grotesque', sans-serif;
+
     content: "3"
 }
 
 #progressbar #confirm:before {
-    font-family: FontAwesome;
+    font-family: 'Darker Grotesque', sans-serif;
+
     content: "4"
 }
 
@@ -701,7 +708,7 @@ select.list-dt:focus {
 
 
 .small-txt {
-    font-size: 14px !important;
+    font-size: 18px !important;
 }
 
 .txt-blue{
@@ -746,7 +753,7 @@ margin-right:auto;
 
 /* selected staff image and overlay */
 .header {
-    height: 65vh;
+    height: 55vh;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.2)),
       url(../images/staff.jpg);
     background-size: cover;
